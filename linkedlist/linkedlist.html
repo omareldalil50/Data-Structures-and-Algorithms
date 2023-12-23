@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LinkedList Example</title>
+    <link rel="icon" type="image/png" href="./1697222168398.png"/> 
+    <link rel="stylesheet" href="./linkedlist.css">
+</head>
+<body>
+
+    <h1 style="color: #fff; margin-top:150px;">LinkedList Example</h1>
+
+    <label for="nodeValue" style="color: #fff;">Enter Node Value:</label>
+    <input type="text" id="nodeValue" onkeyup="handleKeyPress(event)" class="i1"><br><br>
+    <button type="button" class="b1" onclick="addToLinkedList()">Add to LinkedList</button><br>
+    <button type="button" class="b1" onclick="removeFromLinkedList()">Remove from LinkedList</button><br>
+    <button type="button" class="b1" onclick="traverseLinkedList()">Traverse LinkedList</button><br>
+    <button type="button" class="b1" onclick="countNodes()">Count Nodes</button><br>
+    <button type="button" class="b1" onclick="addFirst()">Add to First</button><br>
+    <button type="button" class="b1" onclick="addLast()">Add to Last</button><br>
+    <button type="button" class="b1" onclick="convertToArray()">Convert to Array</button>
+
+    <div id="output"></div>
+
+    <script src="./linkedlist.js"></script>
+
+</body>
+</html>

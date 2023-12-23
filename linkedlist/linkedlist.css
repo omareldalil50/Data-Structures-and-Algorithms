@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+    background-color: #711DB0;
+}
+
+#output {
+    margin-top: 20px;
+    color: #fff;
+}
+
+.node {
+    display: inline-block;
+    margin: 0 10px;
+    border: 1px solid #000;
+    padding: 10px;
+}
+.b1 {
+    background-color: #C21292;
+    color: #fff;
+    padding: 10px 20px;
+    margin: 5px 0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.b1:hover {
+    background-color: #C21292;
+}
+.i1 {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #3498db;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+
+.i1:hover,
+.i1:focus {
+    border-color: #2980b9;
+}
